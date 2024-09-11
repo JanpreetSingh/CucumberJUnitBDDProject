@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0">
+<testcase classname="Career Search Functionality Feature" name="Search for job vacancies as a Guest" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given open the url "https://www.amazon.com/" in the browser.................undefined
+When click on "Careers" link under "Get to Know Us" in the bottom section of the page..undefined
+Then Find jobs page should open.............................................undefined
+When user clicks on the search icon.........................................undefined
+Then Your job application page should open..................................undefined
+When enter the "Angular Developer" title and select appropriate job.........undefined
+And enter the "India" and select approproate location.......................undefined
+And click the search icon...................................................undefined
+Then a list of related job results should be displayed......................undefined
+]]></failure>
+</testcase>
+<testcase classname="Career Search Functionality Feature" name="Search for job vacancies as a Guest 2" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given open the url "https://www.amazon.com/" in the browser.................undefined
+When click on "Careers" link under "Get to Know Us" in the bottom section of the page..undefined
+Then Find jobs page should open.............................................undefined
+When user clicks on the search icon.........................................undefined
+Then Your job application page should open..................................undefined
+When enter the "RPA" title and select appropriate job.......................undefined
+And enter the "Manila" and select approproate location......................undefined
+And click the search icon...................................................undefined
+Then a list of related job results should be displayed......................undefined
+]]></failure>
+</testcase>
+<testcase classname="Career Search Functionality Feature" name="Search for job vacancies as a Guest 3" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given open the url "https://www.amazon.com/" in the browser.................undefined
+When click on "Careers" link under "Get to Know Us" in the bottom section of the page..undefined
+Then Find jobs page should open.............................................undefined
+When user clicks on the search icon.........................................undefined
+Then Your job application page should open..................................undefined
+When enter the "Testing" title and select appropriate job...................undefined
+And enter the "Torronto" and select approproate location....................undefined
+And click the search icon...................................................undefined
+Then a list of related job results should be displayed......................undefined
+]]></failure>
+</testcase>
+</testsuite>
