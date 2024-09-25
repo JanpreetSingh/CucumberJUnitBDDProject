@@ -1,8 +1,5 @@
 package managers;
 
-import dataProvider.ConfigFileReader;
-import dataProvider.JsonDataReader;
-
 /* File Reader Manager as Singleton Design.
  * The Selenium framework will have many File Readers. So it is better to have a File Reader Manager above all the File Readers. And it is better to make the manager class as singleton.
  * The Singleton’s purpose is to control object creation, limiting the number of objects to only one. Since there is only one Singleton instance, any instance fields of a Singleton will occur only once per class, just like static fields.
