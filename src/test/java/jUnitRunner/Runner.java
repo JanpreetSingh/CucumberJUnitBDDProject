@@ -10,7 +10,12 @@ import cucumber.api.junit.Cucumber;
 		features=".\\src\\test\\resources\\features\\amazonCareerSearch.feature",
 		glue={".\\src\\test\\java\\stepDefinitions\\AmazonCareerSearchStepDef.java", "hooksCucumber"},
 //		Reporting in HTML, JSON, XML formats.
-		plugin={"pretty","html:test-output","json:json_output/cucumber.json","junit:junit_xml_output/cucumber.xml"},
+		plugin={"pretty",
+				"html:test-output",
+				"json:json_output/cucumber.json",
+				"junit:junit_xml_output/cucumber.xml",
+				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+				"rerun:target/rerun.txt"}, //Creates a text file with failed scenarios}
 //		When TRUE, The test is not actually run, but verifies whether all feature file steps have corresponding step definitions.		
 		dryRun=false, 
 //		When TRUE, Readable format for scenarios and steps execution result.		

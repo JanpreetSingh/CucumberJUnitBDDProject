@@ -23,7 +23,7 @@ Scenario: Login with unregistered credentials
 	Then user should not successfully login to the application 
 	
 	
-#SCENARIO with Multiple PARAMETER VALUES. The entire SCENARIO is repeated for each of the EXAMPLES record.
+#SCENARIO Outline. The entire SCENARIO is repeated for each of the EXAMPLES record.
 @end2End
 Scenario Outline: Login with unregistered credentials 
 	When enter unregistered username "<username>" and password "<password>" 
@@ -37,7 +37,7 @@ Scenario Outline: Login with unregistered credentials
 		
 
 
-#Scenario STEP with Multiple PARAMETER VALUES. Only the STEP (and not the entire SCENARIO) is repeated for each of the record.
+#Scenario Data Table. Only the STEP (and not the entire SCENARIO) is repeated for each of the record.
 @sanityGroup @regressionSuite
 Scenario: Login with invalid credentials 
 	When enter invalid username and password
